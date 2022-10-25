@@ -9,6 +9,7 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 1. Escolha o diretório do exercício respectivo à vaga que você se candidatou.
 
 - [frontend mobile](https://github.com/rubcube/hiring-exercises/blob/master/frontend-mobile/Instructions.md)
+- [frontend web](https://github.com/rubcube/hiring-exercises/blob/master/frontend-web/Instructions.md)
 - [backend](https://github.com/rubcube/hiring-exercises/blob/master/backend/Instructions.md)
 
 2. Leia atentamente o arquivo de instruções (`Instructions.md`) no diretório e esclareça todas as questões via email [rh@rubcube.com](mailto:rh@rubcube.com).
