@@ -11,7 +11,7 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 - [frontend mobile](https://github.com/rubcube/hiring-exercises/blob/master/frontend-mobile/Instructions.md)
 - [backend](https://github.com/rubcube/hiring-exercises/blob/master/backend/Instructions.md)
 
-2. Leia atentamente o arquivo de instruções (`Instructions.md`) no diretório e esclareça todas as questões via email [hiring@rubcube.com](mailto:hiring@rubcube.com).
+2. Leia atentamente o arquivo de instruções (`Instructions.md`) no diretório e esclareça todas as questões via email [rh@rubcube.com](mailto:rh@rubcube.com).
 
 3. Crie um **repositório privado** para o exercício e adiciona nosso time técnico como colaborador privado.
 
@@ -33,4 +33,4 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
   - o que você adicionaria se tivesse mais tempo;
   - o que você faria diferente se tivesse mais tempo.
 
-5. Ao completar o exercício, mandar o link do repositório com qualquer instrução especial para [hiring@rubcube.com](mailto:hiring@rubcube.com)
+5. Ao completar o exercício, mandar o link do repositório com qualquer instrução especial para [rh@rubcube.com](mailto:rh@rubcube.com)
