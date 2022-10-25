@@ -36,7 +36,7 @@ Consumo dos dados: https://rickandmortyapi.com/documentation/
 
 ## História 1
 
-Eu como usuário do RMWeb, quero visualizar todos os personagens da Série Ricky and Morty, havendo a possibilidade de filtrar pelo nome e trazer suas características (name, status, species, gender, location, episode) para que eu entenda quais episódios o personagem participou e saber se o mesmo está vivo não.
+Eu como usuário do RMWeb, quero visualizar todos os personagens da Série Ricky and Morty, havendo a possibilidade de filtrar pelo nome e trazer suas características (name, status, species, gender, location, episode) para que eu entenda quais episódios o personagem participou e saber se o mesmo está vivo ou não.
 
 ## História 2
 
