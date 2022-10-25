@@ -22,12 +22,15 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 4. Complete o máximo que você puder do exercício no tempo estipulado nas instruções. Garanta que os seguintes entregáveis estejam presentes no seu envio:
 
 - um arquivo `README.md` com as seguintes informações
-  - algumas fotos do produto final;
-  - o exercício que você escolheu e o porque;
-  - uma pequena descrição do que você construiu;
+  - alguns prints e evidências do produto final;
+  - o exercício que você escolheu e o porque, caso exista mais de uma opção de teste para a vaga;
   - como testar e rodar a aplicação;
   - qualquer observação que você sentiu durante o processo se algo foi difícil de fazer, confuso, frustrante;
   - qualquer coisa que você quer nos dizer sobre o processo.
-- um arquivo de `ROADMAP.md` com o que você adicionaria ou mudaria se tivesse mais tempo. 
+
+- um arquivo de `ROADMAP.md` com:
+  - as histórias que você atendeu e a descrição de como;
+  - o que você adicionaria se tivesse mais tempo;
+  - o que você faria diferente se tivesse mais tempo.
 
 5. Ao completar o exercício, mandar o link do repositório com qualquer instrução especial para [hiring@rubcube.com](mailto:hiring@rubcube.com)
