@@ -1,4 +1,4 @@
-# Exercício Mobile
+# Exercício Web
 
 ```
 TEMPO:        48 horas máximo após recebimento da notificação via email.
