@@ -1,7 +1,7 @@
 # Exercício Mobile
 
 ```
-TEMPO:        24 horas máximo.
+TEMPO:        48 horas máximo após recebimento da notificação via email.
 LINGUAGENS:   Kotlin/Java/Swift/Objective C/TypeScript/Dart
 FRAMEWORKS:   React Native/Flutter e quaisquers bibliotecas que achar necessário
 TESTES:       legal ter, mas não é obrigatório
