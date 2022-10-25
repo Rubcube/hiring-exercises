@@ -14,40 +14,11 @@ Este exercício consiste em implementar a melhor solução possível para um dos
 
 Idealmente, sua solução teria alguma maneira de ser executada localmente e visualizar os resultados em um emulador para que possamos analisar totalmente a experiência e não apenas o código-fonte.
 
-# Exercício A: Quake log Parser
+# Exercício: Quake log Parser
 
 Consumo dos dados: [Games Logs](https://github.com/rubcube/hiring-exercises/blob/master/backend/games.log)
 
-## História 1
-
-Eu como administrador do jogo, quero poder analisar a quantidade de mortes por causa, a quantidade de mortes pelo `<world>` e ranking geral de kills por jogador, para acompanhamento de indicadores que possam causar anomalias dentro do jogo, como balanceamento de armas, hackers, etc.
-
-Exemplo:
-
-```json
-"game-1": {
-	kills_by_means: {
-		"MOD_SHOTGUN": 10,
-		"MOD_RAILGUN": 2,
-		"MOD_GAUNTLET": 1,
-		"XXXX": N
-	},
-	general_ranking: {
-		"Dono da bola": 15,
-    "Isgalamido": 10,
-    "Zeh": 5
-	},
-	killed_by_world: {
-		"Dono da bola": 5,
-    "Isgalamido": 2,
-    "Zeh": 0
-	}
-}
-```
-
-## História 2
-
-Eu como administrador do jogo, quero poder consumir esses dados da História 1, de forma estruturada por meio de uma API,  para montar uma visualização desses dados por jogo, levando em consideração os seguintes tipos de causas de morte (retirado do [código-fonte](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h)):
+Tipos de morte [(código-fonte)](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h):
 
 ```c
 // means of death
@@ -85,6 +56,27 @@ typedef enum {
 	MOD_GRAPPLE
 } meansOfDeath_t;
 ```
+
+## História 1
+
+Eu como administrador do jogo, quero ter a estatística por jogo, do total de mortes, de mortes por causa e de mortes causadas pelo <world> para entender dificuldade dos jogadores.
+
+## História 2
+
+Eu como player, quero ver o ranking de cada partida para saber o vencedor e meu desempenho. 
+
+**Critérios de aceite:**
+
+- Os jogadores começam com zero pontos
+- A cada kill o jogador ganha um ponto
+- A cada morte pelo mundo o jogador perde um ponto
+- É permitido pontuação negativa
+- O <world> não deve entrar no ranking de jogadores
+- Os jogadores podem mudar de nome no meio da partida, mas só o último nome deve ser considerado no ranking
+
+## História 3
+
+Eu como administrador do jogo, quero poder consultar as estatísticas de um jogo específicou ou de todos os jogos de maneira estruturada por uma API para montar uma visualização para os jogadores
 
 # Enviando o teste
 
