@@ -47,7 +47,7 @@ Exemplo:
 
 ## História 2
 
-Eu como administrador do jogo, quero poder consumir esses dados da História 1, de forma estruturada para montar uma visualização desses dados por jogo, levando em consideração os seguintes tipos de causas de morte (retirado do [código-fonte](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h)):
+Eu como administrador do jogo, quero poder consumir esses dados da História 1, de forma estruturada por meio de uma API,  para montar uma visualização desses dados por jogo, levando em consideração os seguintes tipos de causas de morte (retirado do [código-fonte](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h)):
 
 ```c
 // means of death
