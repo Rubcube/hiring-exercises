@@ -18,22 +18,34 @@ Idealmente, sua solução teria alguma maneira de ser executada localmente e vis
 
 Consumo dos dados: https://pokeapi.co/docs/v2#items-section
 
-Eu como usuário, quero poder:
+## História 1
 
-- Listar os pokemons
-- Buscar os pokemons por nome
-- Visualizar um pokemon
-- Conseguir evoluir um pokemon desejado
+Eu como usuário do PokeRub, quero visualizar todos os pokemons existentes por nome, havendo a possibilidade de filtrar pelo nome e consultar suas características (tipo, altura, peso, categoria e habilidades), para entendermos do que o pokemon é capaz.
 
-# Exercício B: Ricky and Morty
+## História 2
+
+Eu como usuário do PokeRub, quero poder visualizar quais evoluções são possíveis de um pokemon específico, havendo a possibilidade de evoluir o pokemon se desejado para que eu tenha o pokemon evoluído.
+
+## História 3
+
+Eu como usuário do PokeRub, quero salvar meus pokemons favoritos em uma lista a parte para que eu possa consultar sempre que desejado.
+
+# Exercício B: Ricky and Morty (RMApp)
 
 Consumo dos dados: https://rickandmortyapi.com/documentation/
 
-Eu como usuário, quero poder:
+## História 1
 
-- Listar os personagens da série Ricky and Morty
-- Visualizar um Personagem da série Ricky and Morty
-- Entender quais locais e episódios cada personagem participou dentro da série
+Eu como usuário do RMApp, quero visualizar todos os personagens da Série Ricky and Morty, havendo a possibilidade de filtrar pelo nome e trazer suas características (name, status, species, gender, location, episode) para que eu entenda quais episódios o personagem participou e saber se o mesmo está vivo não.
+
+## História 2
+
+Eu como usuário do RMApp, quero visualizar as características de um episódio por dentro de um detalhe de um personagem da História 1, para conseguir visualizar de forma clara, quais personagens participaram do mesmo episódio junto com o personagem selecionado.
+
+## História 3
+
+Eu como usuário do RMApp, quero salvar os personagens favoritos em uma lista a parte para que eu possa consultar sempre que desejado.
+
 
 # Enviando o teste
 
