@@ -59,7 +59,7 @@ typedef enum {
 
 ## História 1
 
-Eu como administrador do jogo, quero ter a estatística por jogo, do total de mortes, de mortes por causa e de mortes causadas pelo <world> para entender dificuldade dos jogadores.
+Eu como administrador do jogo, quero ter a estatística por jogo, do total de mortes, de mortes por causa e de mortes causadas pelo `<world>` para entender dificuldade dos jogadores.
 
 ## História 2
 
