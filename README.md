@@ -16,7 +16,7 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 
 3. Crie um **repositório privado** para o exercício e adiciona nosso time técnico como colaborador privado.
 
-- [Fabio Takaki](https://github.com/takaki10)
+- [Fabio Takaki](https://github.com/fabiotakaki)
 - [Bruno Cardoso](https://github.com/brunoscardoso)
 - [Cedryk Augusto](https://github.com/cedryk-augusto)
 
