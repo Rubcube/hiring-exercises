@@ -71,7 +71,7 @@ Eu como player, quero ver o ranking de cada partida para saber o vencedor e meu 
 - A cada kill o jogador ganha um ponto
 - A cada morte pelo mundo o jogador perde um ponto
 - É permitido pontuação negativa
-- O <world> não deve entrar no ranking de jogadores
+- O `<world>` não deve entrar no ranking de jogadores
 - Os jogadores podem mudar de nome no meio da partida, mas só o último nome deve ser considerado no ranking
 
 ## História 3
