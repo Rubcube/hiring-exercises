@@ -17,7 +17,6 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 3. Crie um **repositório privado** para o exercício e adiciona nosso time técnico como colaborador privado.
 
 - [Fabio Takaki](https://github.com/fabiotakaki)
-- [Bruno Cardoso](https://github.com/brunoscardoso)
 - [Cedryk Augusto](https://github.com/cedryk-augusto)
 
 4. Complete o máximo que você puder do exercício no tempo estipulado nas instruções. Garanta que os seguintes entregáveis estejam presentes no seu envio:
