@@ -16,8 +16,14 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 
 3. Crie um **repositório privado** para o exercício e adiciona nosso time técnico como colaborador privado.
 
-- [Fabio Takaki](https://github.com/fabiotakaki)
-- [Cedryk Augusto](https://github.com/cedryk-augusto)
+- Adicionar para ambos os testes de Back e Front
+  - [Fabio Takaki](https://github.com/fabiotakaki)
+  - [Cedryk Augusto](https://github.com/cedryk-augusto)
+- Acrescentar só nos testes de back:
+  - [Rogério Santos](https://github.com/santos-rogerio) 
+- Acrescentar só nos testes de front:
+  - [Matheus Prachedes](https://github.com/matheuspinhotech) 
+
 
 4. Complete o máximo que você puder do exercício no tempo estipulado nas instruções. Garanta que os seguintes entregáveis estejam presentes no seu envio:
 
