@@ -22,7 +22,7 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 - Acrescentar só nos testes de back:
   - [Rogério Santos](https://github.com/santos-rogerio) 
 - Acrescentar só nos testes de front:
-  - [Matheus Prachedes](https://github.com/matheuspinhotech) 
+  - [Murilo Bohlke](https://github.com/murilobohlke) 
 
 
 4. Complete o máximo que você puder do exercício no tempo estipulado nas instruções. Garanta que os seguintes entregáveis estejam presentes no seu envio:
