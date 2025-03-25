@@ -1,6 +1,7 @@
 ![](./assets//readme-processo-seletivo.png)
 
 Se você está lendo este repositório, significa que você está participando do nosso processo seletivo técnico para se tornar um **Ruber**.
+
 **Parabéns por chegar até aqui!** 🎉 
 
 Nesta etapa, queremos conhecer melhor como você trabalha, pensa e resolve desafios técnicos do dia a dia. O objetivo do teste é avaliar sua capacidade de transformar histórias e requisitos em uma solução funcional, criando uma **[POC (Proof of Concept)](https://en.wikipedia.org/wiki/Proof_of_concept)**.  

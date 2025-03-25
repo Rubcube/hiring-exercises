@@ -3,6 +3,7 @@
 ## Introdução
 
 Bem-vindo ao nosso teste técnico para a posição de **desenvolvedor back-end**! 
+
 Nosso objetivo é avaliar sua capacidade de resolver problemas, estruturar soluções escaláveis e criar código limpo e bem documentado. 
 
 💡 Aqui estão alguns dos critérios que levamos em consideração ao avaliar sua solução:
@@ -21,7 +22,7 @@ Nosso objetivo é avaliar sua capacidade de resolver problemas, estruturar solu�
 - **Prazo:** 48 horas a partir do recebimento da notificação por e-mail.
 
 ### 👾 Tecnologias permitidas
-- **Linguagens:** TypeScript, JavaScript, .NET (C#).
+- **Linguagens:** TypeScript, JavaScript, .NET (C#), Ruby e Python.
 - **Frameworks:** NestJS, ExpressJS, Fastify, .NET Framework.
 - **Banco de dados:** Qualquer banco SQL ou NoSQL é permitido.
 
@@ -34,7 +35,7 @@ Você deverá desenvolver uma API que implemente os seguintes recursos:
 ### 🔗 1. Integração com API Pública
 Escolha alguma das APIs públicas para integrar no projeto:
 - [OpenWeather](https://openweathermap.org/api) - Previsão do tempo.
-- [The Cat API](https://thecatapi.com/) - Imagens e dados sobre gatos.
+- [Metalprice API](https://metalpriceapi.com/documentation#api_convert) - Câmbio de moedas.
 - [Rest Countries](https://restcountries.com/) - Dados sobre países.
 
 Sua API deve consumir dados da API pública escolhida e apresentar informações relevantes em um endpoint estruturado.
