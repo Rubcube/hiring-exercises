@@ -1,43 +1,69 @@
-# Contratações @ Rubcube
+![](./assets//readme-processo-seletivo.png)
 
-Se você está lendo este repositório, provavelmente você está envolvido em um processo seletivo técnico dentro da Rubcube para se tornar um ruber. Se é o seu caso, parabéns!! 🥳
+Se você está lendo este repositório, significa que você está participando do nosso processo seletivo técnico para se tornar um **Ruber**.
 
-Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre como você trabalha e lida com os desafios técnicos do dia a dia. O objetivo deste teste é avaliar a sua capacidade de transformar as histórias e requisitos em uma [POC](https://en.wikipedia.org/wiki/Proof_of_concept).
+**Parabéns por chegar até aqui!** 🎉 
 
-## Instruções Gerais
+Nesta etapa, queremos conhecer melhor como você trabalha, pensa e resolve desafios técnicos do dia a dia. O objetivo do teste é avaliar sua capacidade de transformar histórias e requisitos em uma solução funcional, criando uma **[POC (Proof of Concept)](https://en.wikipedia.org/wiki/Proof_of_concept)**.  
 
-1. Escolha o diretório do exercício respectivo à vaga que você se candidatou.
+---
 
-- [frontend mobile](https://github.com/rubcube/hiring-exercises/blob/master/frontend-mobile/Instructions.md)
-- [frontend web](https://github.com/rubcube/hiring-exercises/blob/master/frontend-web/Instructions.md)
-- [backend](https://github.com/rubcube/hiring-exercises/blob/master/backend/Instructions.md)
+![](./assets/readme-instrucoes-gerais.png)
 
-2. Leia atentamente o arquivo de instruções (`Instructions.md`) no diretório e esclareça todas as questões via email [rh@rubcube.com](mailto:rh@rubcube.com).
+### 1️⃣ Escolha o exercício correspondente à vaga para a qual você se candidatou  
 
-3. Crie um **repositório privado** para o exercício e adiciona nosso time técnico como colaborador privado.
+Cada área tem desafios específicos. Acesse o diretório correspondente e leia atentamente as instruções:  
 
-- Adicionar para ambos os testes de Back e Front
-  - [Fabio Takaki](https://github.com/fabiotakaki)
-  - [Cedryk Augusto](https://github.com/cedryk-augusto)
-- Acrescentar só nos testes de back:
-  - [Rogério Santos](https://github.com/santos-rogerio)
-  - [Marcos Zaghetto](https://github.com/zaghettorub)
-- Acrescentar só nos testes de front:
-  - [Murilo Bohlke](https://github.com/murilobohlke) 
+- 📲 **[Front-End Mobile](https://github.com/rubcube/hiring-exercises/blob/master/frontend-mobile/Instructions.md)**  
+- 🌐 **[Front-End Web](https://github.com/rubcube/hiring-exercises/blob/master/frontend-web/Instructions.md)**  
+- 💻 **[Back-End](https://github.com/rubcube/hiring-exercises/blob/master/backend/Instructions.md)**  
 
+### 2️⃣ Leia o `Instructions.md` e tire suas dúvidas  
 
-4. Complete o máximo que você puder do exercício no tempo estipulado nas instruções. Garanta que os seguintes entregáveis estejam presentes no seu envio:
+No diretório da sua área, há um arquivo `Instructions.md` com todos os detalhes do desafio. Caso tenha alguma dúvida, **entre em contato pelo e-mail** [rh@rubcube.com](mailto:rh@rubcube.com).  
 
-- um arquivo `README.md` com as seguintes informações
-  - alguns prints e evidências do produto final;
-  - o exercício que você escolheu e o porque, caso exista mais de uma opção de teste para a vaga;
-  - como testar e rodar a aplicação;
-  - qualquer observação que você sentiu durante o processo se algo foi difícil de fazer, confuso, frustrante;
-  - qualquer coisa que você quer nos dizer sobre o processo.
+### 3️⃣ Crie um repositório privado e adicione nosso time técnico como colaborador  
 
-- um arquivo de `ROADMAP.md` com:
-  - as histórias que você atendeu e a descrição de como;
-  - o que você adicionaria se tivesse mais tempo;
-  - o que você faria diferente se tivesse mais tempo.
+Para realizar o teste, crie um **repositório privado** no GitHub e adicione os seguintes membros da nossa equipe técnica:  
 
-5. Ao completar o exercício, mandar o link do repositório com qualquer instrução especial para [rh@rubcube.com](mailto:rh@rubcube.com)
+#### 🔹 Para ambos (Back e Front-End):  
+- [Fabio Takaki](https://github.com/fabiotakaki)  
+- [Marcos Zaghetto](https://github.com/zaghettorub)  
+
+#### 🔹 Somente para testes de Back-End:  
+- [Rogério Santos](https://github.com/santos-rogerio)  
+- [Marcos Zaghetto](https://github.com/zaghettorub)  
+
+#### 🔹 Somente para testes de Front-End:  
+- [Murilo Bohlke](https://github.com/murilobohlke)  
+
+### 4️⃣ Complete o máximo possível no tempo estipulado  
+
+Dentro do prazo determinado no `Instructions.md`, implemente sua solução e garanta que seu repositório contenha os seguintes arquivos essenciais:  
+
+#### 📌 `README.md`  
+- 📷 Prints e evidências do produto final  
+- ✅ Exercício escolhido e motivo (caso haja mais de uma opção)  
+- 🛠️ Instruções para rodar e testar a aplicação  
+- 🔍 Observações sobre dificuldades, desafios e aprendizados  
+- 💬 Qualquer informação adicional que queira compartilhar conosco  
+
+#### 📌 `ROADMAP.md`  
+- 📌 Histórias atendidas e como foram implementadas  
+- ⏳ O que você faria se tivesse mais tempo  
+- 🚀 Melhorias e otimizações que gostaria de adicionar  
+
+### 5️⃣ Envio do teste  
+
+Quando finalizar, **envie o link do repositório privado para [rh@rubcube.com](mailto:rh@rubcube.com)** com qualquer instrução especial necessária para rodar o projeto.  
+
+---
+
+![](./assets/readme-dicas.png) 
+
+✔️ **Priorize a clareza e a organização** – código bem estruturado e documentado conta pontos!  
+✔️ **Teste sua aplicação** – mesmo testes básicos demonstram preocupação com qualidade.  
+✔️ **Capriche no README** – explique suas escolhas e facilite nossa análise.  
+✔️ **Faça algo funcional, mesmo que simples** – prefira qualidade a complexidade desnecessária.  
+
+🚀 Boa sorte! Estamos ansiosos para ver seu talento em ação! ✨
