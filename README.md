@@ -18,10 +18,9 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
 
 - Adicionar para ambos os testes de Back e Front
   - [Fabio Takaki](https://github.com/fabiotakaki)
-  - [Cedryk Augusto](https://github.com/cedryk-augusto)
+  - [Marcos Zaghetto](https://github.com/zaghettorub)
 - Acrescentar só nos testes de back:
   - [Rogério Santos](https://github.com/santos-rogerio)
-  - [Marcos Zaghetto](https://github.com/zaghettorub)
 - Acrescentar só nos testes de front:
   - [Murilo Bohlke](https://github.com/murilobohlke) 
 
