@@ -20,7 +20,7 @@ Seguindo com o seu processo, nós gostaríamos muito de conhecer um pouco sobre 
   - [Fabio Takaki](https://github.com/fabiotakaki)
   - [Marcos Zaghetto](https://github.com/zaghettorub)
 - Acrescentar só nos testes de back:
-  - [Rogério Santos](https://github.com/santos-rogerio)
+  - [Fábio Will](https://github.com/FabioWill)
 - Acrescentar só nos testes de front:
   - [Murilo Bohlke](https://github.com/murilobohlke) 
 
