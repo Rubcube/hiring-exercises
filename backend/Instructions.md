@@ -52,8 +52,10 @@ Implemente endpoints para:
 - Criar um usuário.
 - Editar um usuário.
 - Deletar um usuário.
+- Listar um usuário.
+- Listar vários usuários (com paginação e filtros)
 
-Os dados podem ser armazenados em banco de dados.
+Os dados podem ser armazenados em banco de dados SQL o NoSQL.
 
 ### 📜 5. Consulta de Logs
 Registre um histórico de todas as chamadas feitas à API, incluindo informações como usuário, endpoint, data e hora.

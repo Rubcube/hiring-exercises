@@ -27,12 +27,12 @@ No diretório da sua área, há um arquivo `Instructions.md` com todos os detalh
 Para realizar o teste, crie um **repositório privado** no GitHub e adicione os seguintes membros da nossa equipe técnica:  
 
 #### 🔹 Para ambos (Back e Front-End):  
-- [Fabio Takaki](https://github.com/fabiotakaki)  
-- [Marcos Zaghetto](https://github.com/zaghettorub)  
+- [Rickson Thompson](https://github.com/ricksonthompsonrubcube)  
+- [Fábio Will](https://github.com/FabioWill)  
 
 #### 🔹 Somente para testes de Back-End:  
-- [Rogério Santos](https://github.com/santos-rogerio)  
-- [Marcos Zaghetto](https://github.com/zaghettorub)  
+- [Rickson Thompson](https://github.com/ricksonthompsonrubcube)  
+- [Fábio Will](https://github.com/FabioWill)  
 
 #### 🔹 Somente para testes de Front-End:  
 - [Murilo Bohlke](https://github.com/murilobohlke)  
