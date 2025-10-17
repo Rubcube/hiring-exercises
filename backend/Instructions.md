@@ -1,83 +1,84 @@
-# Exercício Backend
+![](../assets/teste-tecnico-backend.png)
 
-```
-TEMPO:        48 horas máximo após recebimento da notificação via email.
-LINGUAGENS:   TypeScript/Javascript/.NET
-FRAMEWORKS:   NestJS/ExpressJS/Fastify/.NET Framework e quaisquers bibliotecas que achar necessário
-TESTES:       legal ter, mas não é obrigatório
-DOCUMENTAÇÃO: legal ter, mas não é obrigatório
-```
+## Introdução
 
-# Instruções Gerais
+Bem-vindo ao nosso teste técnico para a posição de **desenvolvedor back-end**! 
 
-Este exercício consiste em implementar a melhor solução possível para um dos exercícios abaixo no tempo previsto. Estamos avaliando sua capacidade de atender a um conjunto de requisitos e criar uma solução completa que demonstre habilidade, consideração e arquitetura. Este NÃO é um teste de quão bem você conhece Typescript/NestJS/Fastify/.NET, nem deve tentar nos impressionar com soluções muito complexas. Se você quer nos impressionar, construa algo bonito, intuitivo e fácil de depurar/testar/estender 🫡.
+Nosso objetivo é avaliar sua capacidade de resolver problemas, estruturar soluções escaláveis e criar código limpo e bem documentado. 
 
-Idealmente, sua solução teria alguma maneira de ser executada localmente e visualizar os resultados em um emulador para que possamos analisar totalmente a experiência e não apenas o código-fonte.
+💡 Aqui estão alguns dos critérios que levamos em consideração ao avaliar sua solução:
 
-# Exercício: Quake log Parser
+- **Testes**: Cobertura de testes unitários e/ou de integração.
+- **Deployment**: Facilidade para executar a aplicação localmente ou em ambiente cloud.
+- **Documentação**: `README` detalhado explicando a arquitetura e como rodar a aplicação.
+  - Inclua detalhes de como utilizar os recursos da API. Por exemplo, disponibilizando as chamadas em `cUrl`.
+- **Aderência à stack**: Uso de tecnologias compatíveis com a vaga. Por exemplo, se a vaga é para Node.js com Express, priorizamos essas tecnologias na análise.
 
-Consumo dos dados: [Games Logs](https://github.com/rubcube/hiring-exercises/blob/master/backend/games.log)
+---
 
-Tipos de morte [(código-fonte)](https://github.com/id-Software/Quake-III-Arena/blob/master/code/game/bg_public.h):
+![](../assets/teste-tecnico-backend-requisitos.png)
 
-```c
-// means of death
-typedef enum {
-	MOD_UNKNOWN,
-	MOD_SHOTGUN,
-	MOD_GAUNTLET,
-	MOD_MACHINEGUN,
-	MOD_GRENADE,
-	MOD_GRENADE_SPLASH,
-	MOD_ROCKET,
-	MOD_ROCKET_SPLASH,
-	MOD_PLASMA,
-	MOD_PLASMA_SPLASH,
-	MOD_RAILGUN,
-	MOD_LIGHTNING,
-	MOD_BFG,
-	MOD_BFG_SPLASH,
-	MOD_WATER,
-	MOD_SLIME,
-	MOD_LAVA,
-	MOD_CRUSH,
-	MOD_TELEFRAG,
-	MOD_FALLING,
-	MOD_SUICIDE,
-	MOD_TARGET_LASER,
-	MOD_TRIGGER_HURT,
-#ifdef MISSIONPACK
-	MOD_NAIL,
-	MOD_CHAINGUN,
-	MOD_PROXIMITY_MINE,
-	MOD_KAMIKAZE,
-	MOD_JUICED,
-#endif
-	MOD_GRAPPLE
-} meansOfDeath_t;
-```
+### ⏳ Tempo de desenvolvimento
+- **Prazo:** 48 horas a partir do recebimento da notificação por e-mail.
 
-## História 1
+### 👾 Tecnologias permitidas
+- **Linguagens:** TypeScript, JavaScript, .NET (C#), Ruby e Python.
+- **Frameworks:** NestJS, ExpressJS, Fastify, .NET Framework.
+- **Banco de dados:** Qualquer banco SQL ou NoSQL é permitido.
 
-Eu como administrador do jogo, quero ter a estatística por jogo, do total de mortes, de mortes por causa e de mortes causadas pelo `<world>` para entender dificuldade dos jogadores.
+---
 
-## História 2
+![](../assets/teste-tecnico-backend-desafio.png)
 
-Eu como player, quero ver o ranking de cada partida para saber o vencedor e meu desempenho. 
+Você deverá desenvolver uma API que implemente os seguintes recursos:
 
-**Critérios de aceite:**
+### 🔗 1. Integração com API Pública
+Escolha alguma das APIs públicas para integrar no projeto:
+- [OpenWeather](https://openweathermap.org/api) - Previsão do tempo.
+- [Metalprice API](https://metalpriceapi.com/documentation#api_convert) - Câmbio de moedas.
+- [Rest Countries](https://restcountries.com/) - Dados sobre países.
 
-- Os jogadores começam com zero pontos
-- A cada kill o jogador ganha um ponto
-- A cada morte pelo mundo o jogador perde um ponto
-- É permitido pontuação negativa
-- O `<world>` não deve entrar no ranking de jogadores
-- Os jogadores podem mudar de nome no meio da partida, mas só o último nome deve ser considerado no ranking
+Sua API deve consumir dados da API pública escolhida e apresentar informações relevantes em um endpoint estruturado.
 
-## História 3
+### 🔐 2. Autenticação
+Implemente autenticação utilizando JWT (JSON Web Token). Usuários deverão se registrar e fazer login para acessar determinados recursos protegidos da API.
 
-Eu como administrador do jogo, quero poder consultar as estatísticas de um jogo específicou ou de todos os jogos de maneira estruturada por uma API para montar uma visualização para os jogadores
+### 📋 3. Listagem com Filtros
+Crie um endpoint para listar dados relevantes da API integrada, permitindo filtros por pelo menos dois critérios diferentes.
+* Inclua uma paginação para listar os dados.
 
-# Enviando o teste
+### 👥 4. Gerenciamento de Usuários
+Implemente endpoints para:
+- Criar um usuário.
+- Editar um usuário.
+- Deletar um usuário.
+- Listar um usuário.
+- Listar vários usuários (com paginação e filtros)
 
-Veja as instruções de envio [aqui](https://github.com/rubcube/hiring-exercises/blob/master/README.md)
+Os dados podem ser armazenados em banco de dados SQL o NoSQL.
+
+### 📜 5. Consulta de Logs
+Registre um histórico de todas as chamadas feitas à API, incluindo informações como usuário, endpoint, data e hora.
+* Crie um endpoint para consultar os logs, permitindo filtrar por usuário, data ou endpoint.
+
+---
+
+![](../assets/teste-tecnico-backend-entrega.png)
+
+Para submeter o teste, siga as instruções do repositório: [Instruções de envio](https://github.com/rubcube/hiring-exercises/blob/master/README.md).
+
+O que esperamos na entrega:
+- Código hospedado em um repositório público do `GitHub` ou `GitLab`.
+- Um `README.md` bem documentado com:
+  - Instruções de instalação e execução.
+  - Explicação sobre as decisões técnicas tomadas.
+  - Exemplo de chamadas para os endpoints.
+- *Opcional*: Deploy da API em um serviço cloud (Heroku, Vercel, Render, AWS, etc.).
+
+---
+
+![](../assets/teste-tecnico-backend-consideracoes.png)
+
+Buscamos um código bem estruturado, testável e bem documentado. Lembre-se de que simples é melhor do que complexo e de que clareza é essencial. 
+
+Boa sorte! 🚀
