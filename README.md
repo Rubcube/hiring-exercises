@@ -24,18 +24,10 @@ No diretório da sua área, há um arquivo `Instructions.md` com todos os detalh
 
 ### 3️⃣ Crie um repositório privado e adicione nosso time técnico como colaborador  
 
-Para realizar o teste, crie um **repositório privado** no GitHub e adicione os seguintes membros da nossa equipe técnica:  
+Para realizar o teste, crie um **repositório privado** no GitHub e adicione os seguintes membros da nossa equipe técnica:
 
-#### 🔹 Para ambos (Back e Front-End):  
-- [Rickson Thompson](https://github.com/ricksonthompsonrubcube)  
-- [Fábio Will](https://github.com/FabioWill)  
-
-#### 🔹 Somente para testes de Back-End:  
-- [Rickson Thompson](https://github.com/ricksonthompsonrubcube)  
-- [Fábio Will](https://github.com/FabioWill)  
-
-#### 🔹 Somente para testes de Front-End:  
-- [Murilo Bohlke](https://github.com/murilobohlke)  
+- **murilobohlke**
+- **managementrubcube**
 
 ### 4️⃣ Complete o máximo possível no tempo estipulado  
 
